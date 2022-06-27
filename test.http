@@ -1,0 +1,9 @@
+POST http://localhost:4040/submit
+Content-Type: application/json
+
+{
+    "name": "vishnu",
+    "message":"Vishun  sabuyguiusa",
+    "phone": "123467895",
+    "email": "799vishnu530@gmail.com"    
+}

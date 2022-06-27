@@ -1,0 +1,106 @@
+:root{
+    --primary-color: #fd4766;
+    --secondary-color: #0e1525;
+    --bg-dark-blue: #091020;
+    --bg-white: #fff;
+    --gray-color: #c6c9d8bf;
+    --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #337DFF 100%);
+    --gradient-text: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, var(--primary-color) 79.69%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr = 'var(--secondary-color)' , GradientType=1);  
+
+    --primary-font: 'Poppins', sans-serif;
+    --primary-text: #FD4766;
+    --text-gray: #c6c9d8bf;
+    --text-white: #fff;
+
+}
+
+@media (max-width:991px) {
+    section{
+        padding: 30px 0;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px ;
+    }
+    h3{
+        font-size: 20px;
+    }
+
+    /*navabar*/ 
+
+    .navbar-nav{
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+        transition:.5s;   
+    } 
+
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+
+    /* bannner */
+    .banner-wrapper{
+        padding: 200px 0;
+    } 
+
+    .about_wrapper ul.nav-pills{
+        width: 61%;
+        margin: auto;
+    }
+
+    /* .experience_wrapper h1{
+        position: center;
+        margin-top: 10px;
+        margin-left: 20px;
+    } */
+
+    .experience_wrapper .container{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px){
+    h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+
+    .about_wrapper ul li .nav-link{
+        font-size: 13px;
+        
+    }
+    .experience_wrapper .container{
+        margin-left: 0;
+    }
+    .about_wrapper img{
+        padding-left: 40px;
+    }
+    /* .experience_wrapper h1{
+        position: center;
+        margin-top: 0px;
+        margin-left: 0;
+    } */
+
+    .experince_container{
+        flex-wrap: wrap;
+    }
+    .experince_container{
+        display: flex;
+        width: 100%; 
+    }
+}
