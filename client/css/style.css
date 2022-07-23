@@ -137,8 +137,8 @@ p{
     display: inline-block;
     font-weight: 600;
     letter-spacing: 0.5px;
-    line-height: 18px;
-    font-size: 16px;
+    line-height: 30px;
+    font-size: 29px;
     margin-bottom: 12px;
     background: var(--gradient-color);
     -webkit-background-clip:text;
@@ -556,3 +556,26 @@ img, svg {
         transform: rotate(360deg);
     }
 } */
+
+.submit-btn:{
+    transition: 2s;
+}
+
+.sending-btn{
+    background-color: purple;
+}
+
+.sent-btn{
+    background-color: green;
+}
+
+.hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+
+.status{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 2px;
+}
+

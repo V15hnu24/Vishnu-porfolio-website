@@ -556,3 +556,11 @@ img, svg {
         transform: rotate(360deg);
     }
 } */
+
+#message_contact_wrapper{
+    height: 100px;
+}.submit-btn:{
+    transition: 2s;
+}
+
+.hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }

@@ -91,6 +91,31 @@ form.addEventListener('submit', (e) =>{
 //     })
 // }
 
+function submit_action(){
+    setTimeout(colorChangeer,1000);
+    setTimeout(colorChangeertoGreen,2000);
+    setTimeout(reset, 3000);
+};
+function colorChangeer(){
+    console.log("From temp");
+    const btn = document.getElementById('Submit');
+    btn.style.backgroundColor = "purple";
+    btn.innerText = 'Sending...';
+};
+function colorChangeertoGreen(){
+    console.log("From temp");
+    const btn = document.getElementById('Submit');
+    btn.style.backgroundColor = "Green";
+    btn.innerText = 'Sent';
+};
+function reset(){
+    const form = document.getElementById('Contactform');
+    form.reset();
+    const btn = document.getElementById('Submit');
+    btn.style.backgroundColor = "transparent";
+    btn.innerText = 'Submit';
+};
+
 // let c = 1;
 // let temp1 = document.querySelector(".navbar-toggler");;
 // const div = document.querySelector('#navbarNav');
