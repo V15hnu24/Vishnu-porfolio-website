@@ -410,6 +410,7 @@ button{
     transform: translate3d(10px, -14px, 1000px);
 }
 
+.projects_wrapper #portfolio-more,
 .projects_wrapper #backend-more,
 .projects_wrapper #regression-more,
 .projects_wrapper #willhero-more{
