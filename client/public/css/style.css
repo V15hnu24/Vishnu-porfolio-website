@@ -417,7 +417,7 @@ button{
     display: none;
 }
 
-
+.projects_wrapper #portfolio-dots,
 .projects_wrapper #backend-dots,
 .projects_wrapper #regression-dots,
 .projects_wrapper #willhero-dots{
