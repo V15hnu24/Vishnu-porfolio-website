@@ -6,16 +6,15 @@ import dotenv from 'dotenv';
 import serverless from 'serverless-http';
 
 import Crouter from './routes/posts.js'
-
 const app = express();
-
+dotenv.config();
 app.use(express.static('client'));
 app.use(bodyParser.json({limit: "30mb", extended: true}));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true}));
 app.use(cors());
 app.use('/', Crouter);
 
-const CONNECTION_URL = 'mongodb+srv://Vishnu:VishnuMongodb@cluster0.mofbk.mongodb.net/table1?retryWrites=true&w=majority'
+const CONNECTION_URL = process.env.MONGO
 
 const PORT = process.env.PORT || 4040;
 
